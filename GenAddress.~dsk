@@ -7,20 +7,15 @@ File_4=SourceModule,'C:\Jack\Test\post\Jsons.pas',0,1,1,64,7,0,0
 File_5=SourceModule,'c:\program files (x86)\borland\delphi6\source\vcl\StdCtrls.pas',0,1,359,18,370,0,0
 
 [Modules]
-Module0=C:\Jack\Test\Test_GenAddress\GenAddress.dpr
-Module1=C:\Jack\Test\Test_GenAddress\Unit1.pas
-Module2=c:\program files (x86)\borland\delphi6\source\rtl\win\Windows.pas
-Module3=c:\program files (x86)\borland\delphi6\Indy\IdHTTP.pas
-Module4=C:\Jack\Test\Test_GenAddress\Jsons.pas
-Module5=c:\program files (x86)\borland\delphi6\Indy\IdTCPConnection.pas
-Module6=c:\program files (x86)\borland\delphi6\source\vcl\adodb.pas
+Module0=C:\Jack\Test\Test_GenAddress\Unit1.pas
+Module1=c:\program files (x86)\borland\delphi6\source\rtl\win\Windows.pas
+Module2=c:\program files (x86)\borland\delphi6\Indy\IdHTTP.pas
+Module3=C:\Jack\Test\Test_GenAddress\Jsons.pas
+Module4=c:\program files (x86)\borland\delphi6\Indy\IdTCPConnection.pas
+Module5=c:\program files (x86)\borland\delphi6\source\vcl\adodb.pas
+Module6=C:\Jack\Test\Test_GenAddress\GenAddress.dpr
 Count=7
 EditWindowCount=1
-
-[C:\Jack\Test\Test_GenAddress\GenAddress.dpr]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
 
 [C:\Jack\Test\Test_GenAddress\Unit1.pas]
 ModuleType=SourceModule
@@ -52,6 +47,11 @@ ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
+[C:\Jack\Test\Test_GenAddress\GenAddress.dpr]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
 [C:\Program Files (x86)\Borland\Delphi6\Projects\ProjectGroup1.bpg]
 FormState=0
 FormOnTop=0
@@ -62,7 +62,7 @@ FormOnTop=0
 
 [EditWindow0]
 ViewCount=7
-CurrentView=0
+CurrentView=1
 View0=0
 View1=1
 View2=2
@@ -91,8 +91,8 @@ BottomPanelData=0000040000000000040600000000000002330100000000000001000000000203
 
 [View0]
 Module=C:\Jack\Test\Test_GenAddress\GenAddress.dpr
-CursorX=19
-CursorY=7
+CursorX=27
+CursorY=9
 TopLine=1
 LeftCol=1
 
@@ -155,14 +155,16 @@ Count=0
 [Main Window]
 Create=1
 Visible=1
-State=0
-Left=3
+State=2
+Left=0
 Top=0
 Width=1920
 Height=125
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1904
+MaxWidth=1936
+MaxHeight=125
+ClientWidth=1920
 ClientHeight=87
 
 [ProjectManager]
@@ -347,7 +349,7 @@ TBDockHeight=628
 LRDockWidth=331
 Dockable=1
 TabPosition=0
-ActiveTab=Exploring GenAddress.dpr
+ActiveTab=Exploring Unit1.pas
 TabDockClients=ProjectManager,ObjectTree,CodeExplorer@EditWindow0
 
 [DockSite1]
