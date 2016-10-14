@@ -58,7 +58,7 @@ implementation
 //==============================================================================
 procedure TForm1.EwnNavigator1BtnClick(Sender: TObject; tBtnName: String);
 begin
-  if tBtnName='SQL' then // test
+  if tBtnName='SQL' then // test2
     vGenSQL
   else
   if tBtnName='CSV' then
@@ -101,7 +101,7 @@ begin
       vGetTownFile(tCountyERI, tCounty, tType);
     end;
     Memo1.Lines.SaveToFile('ADDRESS.' + tType);
-    iShowMessage('¶×¥X§¹¦¨!');
+    iShowMessage('Â¶Ã—Â¥XÂ§Â¹Â¦Â¨!');
     FIsGening := false;
   finally
     FreeAndNil(CountyList);
