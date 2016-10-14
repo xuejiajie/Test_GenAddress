@@ -58,7 +58,7 @@ implementation
 //==============================================================================
 procedure TForm1.EwnNavigator1BtnClick(Sender: TObject; tBtnName: String);
 begin
-  if tBtnName='SQL' then // test4
+  if tBtnName='SQL' then // test5
     vGenSQL
   else
   if tBtnName='CSV' then
